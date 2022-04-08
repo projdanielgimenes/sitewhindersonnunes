@@ -1,12 +1,35 @@
 body{
- background-color:#BA55D3;
-}    
+    background-color:#ffffff;
+}
 
-img{
-    width:50%
-    ;
+.img_topo{
+    width: 100%;
 
-    }
-    figure{
-        text-align: center
-    }
+}
+
+.img_corpo{
+    width: 50%;
+    
+}
+
+figure{
+    text-align: center;
+}
+
+.container{
+
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #00BFFF;
+}
+
+p{
+    font-size: 1.4em;
+    color:#000000;
+    text-align: justify;
+    text-indent: 40px;
+}
