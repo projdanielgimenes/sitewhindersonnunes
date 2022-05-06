@@ -33,3 +33,18 @@ p{
     text-align: justify;
     text-indent: 40px;
 }
+.fundo_diferente > p{
+    font-size: 1em;
+}
+
+
+.pinta_botao{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+}
+.botao{
+    padding-top: 15px;
+    text-align: center;
+}
