@@ -2,6 +2,10 @@ body{
     background-color:#ffffff;
 }
 
+.fundo_diferente{
+    background-image: linear-gradient(to right, #ffffff , rgb(252, 41, 41));
+}
+
 .img_topo{
     width: 100%;
 
@@ -33,18 +37,18 @@ p{
     text-align: justify;
     text-indent: 40px;
 }
-.fundo_diferente > p{
+
+.parag_titulos p{
     font-size: 1em;
 }
 
-
 .pinta_botao{
-    width: 100px;
+    width: 150px;
     height: 50px;
-    background-color: blue;
+    background-image: linear-gradient(to right, #ffffff , rgb(0, 0, 0));
     margin: auto;
 }
+
 .botao{
     padding-top: 15px;
-    text-align: center;
 }
