@@ -3,8 +3,47 @@ html{
 }
 
 body{
-    background-color:#ffffff;
+    background-color:#4b0707;
 }
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.menu, footer{
+    background-color: aqua;
+    /* rgba(199, 21, 133, 0.2);  */  
+    /* rgba(143, 188, 143, 0.2); */
+    /* rgba(128, 128, 128, 0.4); */ 
+    padding: 1.5%;
+}
+
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.itens_menu > ul > li > a
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 
 .fundo_diferente{
     background-image: linear-gradient(to right, #ffffff , rgb(252, 41, 41));
@@ -35,6 +74,12 @@ h1{
     color: #00BFFF;
 }
 
+h2{
+    text-align: center;
+    color: 	#8B0000;
+    font-size: 1.5em;
+  }
+
 p{
     font-size: 1.4em;
     color:#000000;
@@ -44,6 +89,7 @@ p{
 
 .parag_titulos p{
     font-size: 1em;
+    line-height: 1.5;
 }
 
 .pinta_botao{
@@ -56,3 +102,16 @@ p{
 .botao{
     padding-top: 15px;
 }
+
+footer p{
+
+    font-size: 1.2em;
+    text-align: center;
+  
+  }              
+
+  section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
