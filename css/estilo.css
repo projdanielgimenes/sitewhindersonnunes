@@ -64,7 +64,6 @@ figure{
 }
 
 .container{
-
     width: 80%;
     margin: auto;
 }
@@ -133,4 +132,12 @@ footer p{
   float: right;
   width: 10%;
   margin-left: 5%;
-}
+  
+} 
+
+.esquerda{
+  float: left;
+  width: 10%;
+  margin-right: 5%;
+ }
+
