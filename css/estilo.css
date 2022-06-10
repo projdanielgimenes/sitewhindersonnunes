@@ -9,6 +9,11 @@ body{
 .logo{
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: center;
+}
+
+.img_logo{
+  width: 15%;
 }
 
 .menu, footer{
