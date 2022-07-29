@@ -111,7 +111,9 @@ p{
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
 }
+
 
 .parag_titulos p{
     font-size: 1em;
