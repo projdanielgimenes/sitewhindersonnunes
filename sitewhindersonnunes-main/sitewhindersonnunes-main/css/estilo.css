@@ -1,0 +1,219 @@
+@font-face {
+  font-family: EduNSWACTFoundation-VariableFont_wght ;
+  
+  src: url('../fonts/EduNSWACTFoundation-VariableFont_wght.ttf')
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#a6e72d;
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.img_logo{
+  width: 15%;
+}
+
+.menu, footer{
+    background-color: aqua;
+    /* rgba(199, 21, 133, 0.2);  */  
+    /* rgba(143, 188, 143, 0.2); */
+    /* rgba(128, 128, 128, 0.4); */ 
+    padding: 1.5%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.itens_menu a{
+  font-size: 1.2em;
+}
+
+.itens_menu > ul > li > a
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+    border-radius: 15%;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+
+.fundo_diferente{
+    background-image: linear-gradient(to right, #ffffff , rgb(252, 41, 41));
+}
+
+.img_topo{
+    width: 100%;
+}
+
+.img_corpo{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+
+figure{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{  text-align: center;
+    color: #00BFFF;
+    font-size: 2em;
+    font-family: 'Berkshire Swash', cursive;
+  }
+  
+h2{
+    text-align: center;
+    color: 	#c3f023;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    font-family: 'Berkshire Swash', cursive;
+  }
+
+p{
+    font-size: 1.4em;
+    color:#000000;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+}
+
+
+.parag_titulos p{
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.pinta_botao{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #ffffff , rgb(0, 0, 0));
+    margin: auto;
+    padding: 0.2%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.pinta_botao:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+  }
+
+  .pinta_botao a:link, .pinta_botao :visited{
+    text-align: center;
+    text-decoration: none ;    
+  }
+
+footer p{
+
+    font-size: 1.2em;
+    text-align: center;
+  
+  }              
+
+  section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .escondido{
+    display: none;
+  }
+
+.direita{
+  float: right;
+  width: 10%;
+  margin-left: 5%;
+  
+} 
+
+.esquerda{
+  float: left;
+  width: 10%;
+  margin-right: 5%;
+ }
+
+ a{
+  text-decoration: none;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+  font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+}
+
+audio{
+  width: 70%;
+}
+
+th{
+  font-size: 1.5em ;
+  font-weight: bolder;
+}
+
+td,th{
+  border: 5px inset #8B0000;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+td:first-child{
+  width: 40%;
+}
+
+td:first-child + td{
+  width: 60%;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color:rgba(229, 233, 18, 0.3) !important;
+  }
+
+
+
+
+
+
+
