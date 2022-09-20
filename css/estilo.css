@@ -13,27 +13,35 @@ body{
     background-color:#a6e72d;
 }
 
+header{
+  padding: 1.5%;  
+  font-family: 'Patrick Hand', cursive;
+  background-color: #80f0e7;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .fixo{
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-
-}
-
-.banner{
-  margin-top: 25%;
-}
-
-.logo{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
+  z-index: 1;
 }
 
 .img_logo{
-  width: 15%;
+  width: 30%;
 }
+
+.logo{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
 
 .menu, footer{
     background-color: aqua;
@@ -70,6 +78,8 @@ a:link {
   /* mouse over link */
   a:hover {
     color: hotpink;
+    padding: 0.8%;    
+    background-color: rgba(128, 128, 128, 0.3); 
     text-decoration: none;
     border-radius: 15%;
   }
@@ -78,6 +88,18 @@ a:link {
   a:active {
     color: blue;
     text-decoration: none;
+  }
+
+  section a:link{
+    color: #696969;
+  }
+  
+  section a:visited {
+    color: rgb(255, 255, 255); 
+  }
+  
+  section a:hover{
+    color: #696969;
   }
 
 .fundo_diferente{
@@ -134,7 +156,7 @@ p{
 
 .pinta_botao{
     width: 150px;
-    height: 50px;
+    height: 40px;
     background-image: linear-gradient(to right, #ffffff , rgb(0, 0, 0));
     margin: auto;
     padding: 0.2%;
@@ -148,7 +170,8 @@ p{
 
   .pinta_botao a:link, .pinta_botao :visited{
     text-align: center;
-    text-decoration: none ;    
+    text-decoration: none ;
+    font-weight: bolder;    
   }
 
 footer p{
@@ -169,20 +192,17 @@ footer p{
 
 .direita{
   float: right;
-  width: 10%;
-  margin-left: 5%;
+  width: 40%;
+  margin-left: 2%;
   
 } 
 
 .esquerda{
   float: left;
-  width: 10%;
-  margin-right: 5%;
- }
+  width: 30%;
 
- a{
-  text-decoration: none;
-}
+  margin-right: 2%;
+ }
 
 table{
   border-collapse: collapse;
@@ -230,9 +250,11 @@ audio::-webkit-media-controls-panel{
     margin-top: 1%;
     box-sizing: border-box;
   }
+
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
   }
 
   input[type=text], select, textarea, input[type=tel], input[type=email] {
@@ -241,6 +263,7 @@ audio::-webkit-media-controls-panel{
     border: 1px solid #ccc;
     border-radius: 15px;
     resize: vertical;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
   }
  
 
@@ -284,18 +307,69 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width:450px) {
+/*Faz uma alteração quando a tela fica menor que 600px */
+@media screen and (max-width:600px) {
 
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
-   
+  }  
+
+  .banner{
+    margin-top: 40%;
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+
+  .descer{
+    margin-top: 50%;
+  }
+}
+/*Faz uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
+
+  header{
+    flex-direction: row;
+  }
+
+  .itens_menu{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 70%;
+
+  }
+
+  .itens_menu ul li {
+        display: inline;
+        margin-left: 1%;
+
+
+  }
+
+  .banner{
+    margin-top: 8%;
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 30%;
+  }
+
+  .descer{
+    margin-top: 10%;
   }
 
  
 
-  
-}
+} 
+
  
 
 

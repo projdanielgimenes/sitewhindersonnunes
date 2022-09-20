@@ -1,91 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>CSS Interno e Inline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>CSS Interno e Inline </title>
     <style>
         body{
-            background-color: black;
-        }
-        h1{
-            background-color: crimson;
-        }
-        p{
-            background-color: green;
-        }
-        .container{
-            width: 110%;
-            height: 1050px;
-            position: relative;
-            background-color: royalblue;
-            
-        }
-        .fixo{
-            position: fixed;
-            width: 101%;
-            z-index: 1030;
             background-color: blue;
         }
-        .main{
-            position: relative;
+        h1{
+            background-color: blue;
         }
-        .topodir{
-            position: absolute;
-            width: 20%;
-            right: 16px;
-            top: 50px;
-            background-color: cyan;
+        p{
+            background-color: cornflowerblue;
         }
-        .topoesq{
-            position: absolute;
-            width: 20%;
-            left: 16px;
-            top: 50px;
-            background-color: firebrick;
+        div{
+            width: 100px;
+            height: 50px;
+            background-color: cornflowerblue;
+            margin: auto;
         }
-        .baixodir{
-            position: absolute;
-            width: 20%;
-            bottom: 10px;
-            right: 16px;
-            background-color: lightseagreen;
-        }
-        .baixoesq{
-            position: absolute;
-            width: 20%;
-            bottom: 10px;
-            left: 16px;
-            background-color: darkmagenta;
-        }
-        .centro{
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            text-align: center;
-            font-size: 18px;
-            background-color: fuchsia;
-
-        }
+       .botao{
+        padding-top: 15px;
+        text-align: center;
+       }
     </style>
 </head>
 <body>
-    <header>
-        <h1 class="fixo" style="text-align: center;color: hotpink;font-weight: bolder;">CSS Interno e Inline</h1>
-        <p style="border-color: brown;border-style: groove;color: lightcoral;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto soluta dolore quis est deserunt animi possimus, assumenda unde nostrum quibusdam distinctio sit similique ut voluptas facilis exercitationem beatae architecto.</p>
-        <p style="border-color: brown;border-style: groove;color: lightcoral;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, maxime. Similique amet molestias a alias exercitationem iusto atque laboriosam perspiciatis! Nulla, eligendi quasi magni maiores atque recusandae minima a distinctio.</p>
-    </header>
-<div class="main">
-        <div class="container">
-            <h1>TESTE...</h1>
-            <div class="topodir">topodir</div>
-            <div class="topoesq">topoesq</div>
-            <div class="baixoesq">baixoesq</div>
-            <div class="baixodir">baixodir</div>
-            <div class="centro">centro</div>
+    <h1 style="text-align: center;">CSS Interno e Inline</h1>
+    <p style="border-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi quis molestias possimus maxime saepe officiis excepturi vitae asperiores omnis. Quis ea ratione provident fugiat hic pariatur aspernatur beatae illum?</p>
+    <p style="border-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam magnam quos aspernatur est necessitatibus consectetur, recusandae quo qui reiciendis quae, aliquid quaerat maxime, et corporis. Quis rem iure molestias!</p>
+    <a href="index.html"><div><p class="botao">HOME</p>  /</div></a>
 
-        </div>
-</div>
 </body>
+<footer>
+    <p>Desenvolvido por Daniel Gimenes</p>
+</footer>
 </html>
